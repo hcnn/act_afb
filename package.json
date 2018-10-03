@@ -1,0 +1,13 @@
+{
+  "name": "act_afb",
+  "version": "0.1.0",
+  "repo": "hcnn/act_afb",
+  "description": "Date difference in years according to the Actual/Actual AFB daycount method",
+  "keywords": ["daycount", "date difference", "year fraction", "Actual/Actual AFB", "Actual/Actual FBF"],
+  "license": "MIT",
+  "src": ["act_afb.c", "act_afb.h"],
+  "dependencies": {
+    "hcnn/isaleapyear": "0.1.0",
+    "hcnn/julianday": "0.1.0"
+  }
+}
